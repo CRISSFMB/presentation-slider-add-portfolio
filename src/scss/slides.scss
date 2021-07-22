@@ -1,0 +1,84 @@
+.slides {
+  font-family: "Lato", sans-serif;
+
+  //html section
+
+  .html-section {
+    &__title {
+      color: $orange;
+      font-size: 5rem;
+    }
+    &__paragraph {
+      color: $white;
+      font-size: 2rem;
+    }
+
+    &__icon {
+      color: $orange;
+      font-size: 7rem;
+    }
+  }
+
+  //   css section
+
+  .css-section {
+    &__title {
+      color: $blue;
+      font-size: 5rem;
+    }
+    &__paragraph {
+      color: $white;
+      font-size: 2rem;
+    }
+
+    &__icon {
+      color: $blue;
+      font-size: 7rem;
+    }
+  }
+
+  //   javascript section
+
+  .javascript-section {
+    &__title {
+      color: $yellow;
+      font-size: 4rem;
+    }
+    &__paragraph {
+      color: $white;
+      font-size: 2rem;
+    }
+
+    &__icon {
+      color: $yellow;
+      font-size: 7rem;
+    }
+  }
+
+  //   vertical section
+
+  .vertical-section {
+    &__title {
+      color: $white;
+      font-size: 5rem;
+    }
+  }
+
+  //   React section
+
+  .react-section {
+    &__title {
+      color: $blue;
+      font-size: 4rem;
+    }
+    &__paragraph {
+      color: $white;
+      font-size: 2rem;
+    }
+
+    &__icon {
+      color: $blue;
+      font-size: 7rem;
+    }
+  }
+}
